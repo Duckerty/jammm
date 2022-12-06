@@ -6,10 +6,10 @@ import { TrackList } from "../TrackList/TrackList";
 export class Playlist extends React.Component {
   render() {
     return (
-      <div class="Playlist">
+      <div className="Playlist">
         <input value={'New Playlist'} />
         <TrackList tracks={this.props.playlistTracks}/>
-        <button class="Playlist-save">SAVE TO SPOTIFY</button>
+        <button className="Playlist-save">SAVE TO SPOTIFY</button>
       </div>
     );
   }
