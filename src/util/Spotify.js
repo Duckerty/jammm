@@ -1,4 +1,4 @@
-const clientId = "d195c394c254408da047f21aa48a8eb2";
+const clientId = "*********************************";
 const redirectUri = "http://rural-cub.surge.sh";
 
 let accessToken;
